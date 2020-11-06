@@ -13,8 +13,7 @@ public class MazeConstructor : MonoBehaviour
     public bool showDebug;
 
     [SerializeField] private Material mazeMat1;
-    [SerializeField] private Material mazeMat2;
-    [SerializeField] private Material startMat;
+    [SerializeField] private Material mazeMat2; [SerializeField] private Material startMat;
     [SerializeField] private Material treasureMat;
 
     public int[,] data
